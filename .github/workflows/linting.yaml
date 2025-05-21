@@ -94,4 +94,4 @@ jobs:
       - name: Regen Manpage
         run: |
           set -x
-          asciidoctor -b manpage dice-roll-go.adoc
+          asciidoctor -b manpage man/*.adoc
