@@ -9,4 +9,5 @@ var version string
 
 func main() {
 	fmt.Println("implement me 😃")
+	fmt.Println("Version:", version)
 }
